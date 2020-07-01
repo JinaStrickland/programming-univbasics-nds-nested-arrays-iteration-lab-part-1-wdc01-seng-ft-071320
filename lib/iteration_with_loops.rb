@@ -6,12 +6,13 @@ array_of_arrays = [
 
 def find_even_values(array_of_arrays)
   count = 0
+  new_arrays = []
   while count < array_of_arrays.length do
     p array_of_arrays[count]
 
     element_index = 0
   while element_index < array_of_arrays[count][element_index] do
-    p array_of_arrays[count][element_index].even?
+    array_of_arrays[count][element_index].even?
     element_index += 1
   end
   count += 1
