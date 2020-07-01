@@ -13,8 +13,9 @@ def find_even_values(array_of_arrays)
     count += 1
 
     element_index = 0
-  while
-
+  while element_index < array_of_arrays[count][element_index] do
+    if array_of_arrays[count][element_index] == even?
+      p array_of_arrays[count][element_index]
     element_index += 1
   end
   
