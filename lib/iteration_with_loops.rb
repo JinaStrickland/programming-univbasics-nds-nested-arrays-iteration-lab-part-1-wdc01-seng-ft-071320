@@ -16,7 +16,8 @@ def find_even_values(array_of_arrays)
   end
   count += 1
 end
-    array_of_arrays
+
+find_even_values(array_of_arrays)
 
 
 
