@@ -10,12 +10,14 @@ def find_even_values(array_of_arrays)
   while count < array_of_arrays.length do
     array_of_arrays[count]
     element_index = 0
-  while element_index < array_of_arrays[count][element_index] do
-    array_of_arrays[count][element_index].even?
-    element_index += 1
+    while element_index < array_of_arrays[count][element_index] do
+      even_number = array_of_arrays[count][element_index]
+      even_number.even?
+      p even_number
+      element_index += 1
+    end
+    count += 1
   end
-  count += 1
-end
 end
 #find_even_values(array_of_arrays)
 
