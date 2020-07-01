@@ -10,7 +10,7 @@ def find_even_values(array_of_arrays)
     array_of_arrays[count]
     element_index = 0
     while element_index < array_of_arrays[count].length do
-      if array_of_arrays[count][element_index].even?
+      if array_of_arrays[count][element_index] % 2
         p array_of_arrays[count][element_index]
       end
       element_index += 1
